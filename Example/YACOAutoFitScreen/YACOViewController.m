@@ -7,7 +7,7 @@
 //
 
 #import "YACOViewController.h"
-
+#import "YACOAutoFitScreen.h"
 @interface YACOViewController ()
 
 @end
@@ -24,6 +24,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    UILabel *testLabel = [UILabel new];
+    testLabel.frame = CGRectMake(0, 0, kYACOFitModule(80), kYACOFitModule(90));
+    testLabel.font = kYACOFitFontNormal(17.0);
+    [self.view addSubview:testLabel];
 }
 
 @end

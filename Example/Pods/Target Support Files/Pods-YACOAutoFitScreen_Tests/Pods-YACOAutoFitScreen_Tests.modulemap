@@ -1,0 +1,6 @@
+framework module Pods_YACOAutoFitScreen_Tests {
+  umbrella header "Pods-YACOAutoFitScreen_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

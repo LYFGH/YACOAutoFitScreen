@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15260EAF79BB778A2213A5C964997CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		183434860132E0DB51177553DA87EB81 /* YACOPhoneModelX.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E37E2F5C4386FCD4436CF3828F7C82 /* YACOPhoneModelX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A68DD270DE6D5EA75B179074EF7EC40 /* FontValue6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 878033829508DF7509E6A52CB460F26A /* FontValue6.plist */; };
+		222803497CC2996B74BE10547799FEA8 /* Pods-YACOAutoFitScreen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0858A2942DA5ACE990C6B02700C1E1F7 /* Pods-YACOAutoFitScreen_Tests-dummy.m */; };
+		38DF87F784D92ECC1A6FA805BA20FF1A /* ImageValue6.plist in Sources */ = {isa = PBXBuildFile; fileRef = 141DD6A42BBA3183457F591CE144EB2C /* ImageValue6.plist */; };
+		401E1EFB05A970527315F21E0FB4847C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F56512AFAEDE746654EB3291F143941 /* YACOPhoneModelX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFBF353D97C132B8B140A6EFCFEDC3 /* YACOPhoneModelX.m */; };
+		54E7C094C3E0B58DDC3D4E5B5630D607 /* YACOPhoneModel5.m in Sources */ = {isa = PBXBuildFile; fileRef = 306F4D9E49BB88417434761877C6AC04 /* YACOPhoneModel5.m */; };
+		5B3E3758622FE72D2C8D224FA4F8E73A /* Pods-YACOAutoFitScreen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E387EAC374039EEE299D4B0A25DF8BE /* Pods-YACOAutoFitScreen_Example-dummy.m */; };
+		611A21A09A033DD54364F7DEC55A2E77 /* ImageValue6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 141DD6A42BBA3183457F591CE144EB2C /* ImageValue6.plist */; };
+		63070607C3E161C7BA3BEB609B521BE5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4662CD8841264060E1E21904B74EFB5 /* ReplaceMe.m */; };
+		6C5F8EC357B1371C90B38506E3E128DE /* YACOPhoneModel6p.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AB5E86EDF9999A1035CD228323F417 /* YACOPhoneModel6p.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E967789B91E017F2CBB6A6A0D5B5696 /* YACOAutoFitScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DB216F7FAD2896500A3422B6FD0B16 /* YACOAutoFitScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7285D188390B429C65BA98E95C442D17 /* Pods-YACOAutoFitScreen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DC571493FFF63D3A2B10BAD4D0603A /* Pods-YACOAutoFitScreen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7685FD34072367D90E698444EA715818 /* Pods-YACOAutoFitScreen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5C15D00EA722D663960A8C890FCF3E /* Pods-YACOAutoFitScreen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7737B0CF10BD23E1143FDE43E5898827 /* YACOAutoFitScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9B12449B6B0A8087BC5AA11C2390F5 /* YACOAutoFitScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5F4EC01BCF583D0F6B959B81470A70 /* YACOPhoneModelXSMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEEF08CD231A9738EF50B9FA5D7C4ED /* YACOPhoneModelXSMax.m */; };
+		8573987D79586CA91F67D079A60975D9 /* YACOPhoneModel6p.m in Sources */ = {isa = PBXBuildFile; fileRef = 4087DEEF442DF7881C8A7A0070AB51C9 /* YACOPhoneModel6p.m */; };
+		8AEEB5D29BEFB3DE338B9FD9F2C320A7 /* YACOPhoneModel5.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7FE32822D7284A50E2988B9CE24240 /* YACOPhoneModel5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9363C06F5D6C79EDA17C71AAAD9E6B02 /* YACOPhoneModel6.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E201746BA226328B4E33ED78BAE9 /* YACOPhoneModel6.m */; };
+		98EA1AB2CD92E1C8F504C55658B1B5E5 /* ModuleValue6.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F1747B1215909A09A02AE124DB5F26 /* ModuleValue6.plist */; };
+		A26802A06F63EEE65BE62C5925E0694D /* YACOPhoneModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6A494A449DAE1D010E67EC17E2D23 /* YACOPhoneModelFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF18C4974BDA89B23E616D99FB99964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D188601ACECB7DB70DDFFCFA80081BA7 /* ModuleValue6.plist in Sources */ = {isa = PBXBuildFile; fileRef = A4F1747B1215909A09A02AE124DB5F26 /* ModuleValue6.plist */; };
+		DA1DDB0125374D9E59679D04C03073E1 /* YACOPhoneModelXSMax.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EDB975CAC54F1544C7F66A5EF20E64 /* YACOPhoneModelXSMax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1F8F37D06057EA91E40FCE59C7F77ED /* FontValue6.plist in Sources */ = {isa = PBXBuildFile; fileRef = 878033829508DF7509E6A52CB460F26A /* FontValue6.plist */; };
+		F37406F860B512AD6C19BBC07563CAA7 /* YACOAutoFitScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BFD59C69AB5EB468BC4FF2D0D42DFA /* YACOAutoFitScreen-dummy.m */; };
+		F3F043EE05BF654FB0585213055FC44D /* YACOPhoneModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E840F709B063048ACEEC2C9284B853 /* YACOPhoneModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6348785490DED797C27103C0DC777A2 /* YACOPhoneModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68569CD40FFD2FF2366F14138D3E01 /* YACOPhoneModelFactory.m */; };
+		F8F57ACBC79AEFE8711873E94EBE528E /* YACOPhoneModel6.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF75A3E3CC9FDB603C4BFE5B0CB50A0 /* YACOPhoneModel6.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA382F927836607682EAA498D513466A /* YACOPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A548F3A1A59D942CC8295511D70BDC /* YACOPhoneModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C9C8A94F7963DE58434096573A95FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E9936276632A0C5D2C86492C7B8CF7F;
+			remoteInfo = YACOAutoFitScreen;
+		};
+		605CD91B2715BBA13361EBD914E13EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D89D7E3948F955CE879F84CAA81E76F;
+			remoteInfo = "Pods-YACOAutoFitScreen_Example";
+		};
+		7054FEFFC118536A93F9B7C562181056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3379D545FC838BE25B6BA48023B182;
+			remoteInfo = "YACOAutoFitScreen-YACOAutoFitScreen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BFD59C69AB5EB468BC4FF2D0D42DFA /* YACOAutoFitScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOAutoFitScreen-dummy.m"; sourceTree = "<group>"; };
+		06AB5E86EDF9999A1035CD228323F417 /* YACOPhoneModel6p.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModel6p.h; path = YACOAutoFitScreen/Classes/YACOPhoneModel6p.h; sourceTree = "<group>"; };
+		0858A2942DA5ACE990C6B02700C1E1F7 /* Pods-YACOAutoFitScreen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOAutoFitScreen_Tests-dummy.m"; sourceTree = "<group>"; };
+		091409F9584D0DCDCBB2976A692CE515 /* Pods-YACOAutoFitScreen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOAutoFitScreen_Example.modulemap"; sourceTree = "<group>"; };
+		0F5C15D00EA722D663960A8C890FCF3E /* Pods-YACOAutoFitScreen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOAutoFitScreen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		141DD6A42BBA3183457F591CE144EB2C /* ImageValue6.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = ImageValue6.plist; sourceTree = "<group>"; };
+		1937E3E441F48B33F1DA6DA98BD21A29 /* YACOAutoFitScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOAutoFitScreen.modulemap; sourceTree = "<group>"; };
+		1E387EAC374039EEE299D4B0A25DF8BE /* Pods-YACOAutoFitScreen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOAutoFitScreen_Example-dummy.m"; sourceTree = "<group>"; };
+		1E5DF5613B4FCD64FA07FD80B8F7DBDB /* Pods-YACOAutoFitScreen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOAutoFitScreen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25CB75ECBDE899038EC94866D38A502E /* YACOAutoFitScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOAutoFitScreen.framework; path = YACOAutoFitScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F86EEAA898F8ABE85FD7EAE628F482 /* YACOAutoFitScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOAutoFitScreen.release.xcconfig; sourceTree = "<group>"; };
+		2C8DC89C98DB1F887AF6898E64C22CEB /* Pods-YACOAutoFitScreen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOAutoFitScreen_Tests-Info.plist"; sourceTree = "<group>"; };
+		2FEEF08CD231A9738EF50B9FA5D7C4ED /* YACOPhoneModelXSMax.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModelXSMax.m; path = YACOAutoFitScreen/Classes/YACOPhoneModelXSMax.m; sourceTree = "<group>"; };
+		306F4D9E49BB88417434761877C6AC04 /* YACOPhoneModel5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModel5.m; path = YACOAutoFitScreen/Classes/YACOPhoneModel5.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34E37E2F5C4386FCD4436CF3828F7C82 /* YACOPhoneModelX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModelX.h; path = YACOAutoFitScreen/Classes/YACOPhoneModelX.h; sourceTree = "<group>"; };
+		38E25538DBBD74847ADA66D45E966940 /* ResourceBundle-YACOAutoFitScreen-YACOAutoFitScreen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YACOAutoFitScreen-YACOAutoFitScreen-Info.plist"; sourceTree = "<group>"; };
+		3D396FD7619499EDEC776B8DDE56A1A2 /* YACOAutoFitScreen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YACOAutoFitScreen.bundle; path = "YACOAutoFitScreen-YACOAutoFitScreen.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4087DEEF442DF7881C8A7A0070AB51C9 /* YACOPhoneModel6p.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModel6p.m; path = YACOAutoFitScreen/Classes/YACOPhoneModel6p.m; sourceTree = "<group>"; };
+		40C38F82DCE218D46FC96E4651C69F6E /* Pods-YACOAutoFitScreen_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOAutoFitScreen_Example-resources.sh"; sourceTree = "<group>"; };
+		47E6A494A449DAE1D010E67EC17E2D23 /* YACOPhoneModelFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModelFactory.h; path = YACOAutoFitScreen/Classes/YACOPhoneModelFactory.h; sourceTree = "<group>"; };
+		4807E201746BA226328B4E33ED78BAE9 /* YACOPhoneModel6.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModel6.m; path = YACOAutoFitScreen/Classes/YACOPhoneModel6.m; sourceTree = "<group>"; };
+		49DB216F7FAD2896500A3422B6FD0B16 /* YACOAutoFitScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOAutoFitScreen.h; path = YACOAutoFitScreen/Classes/YACOAutoFitScreen.h; sourceTree = "<group>"; };
+		54717CDE1DC9BA7C0239518FBC184B40 /* Pods-YACOAutoFitScreen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOAutoFitScreen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C9B12449B6B0A8087BC5AA11C2390F5 /* YACOAutoFitScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOAutoFitScreen-umbrella.h"; sourceTree = "<group>"; };
+		5EFFBF353D97C132B8B140A6EFCFEDC3 /* YACOPhoneModelX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModelX.m; path = YACOAutoFitScreen/Classes/YACOPhoneModelX.m; sourceTree = "<group>"; };
+		60F8D1D29C99B7881CE2FB463DD25564 /* Pods_YACOAutoFitScreen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOAutoFitScreen_Tests.framework; path = "Pods-YACOAutoFitScreen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658A59790542935E320B9B96AF8716B1 /* YACOAutoFitScreen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOAutoFitScreen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A36E05D2BF93E17E01D6BB9055AA711 /* YACOAutoFitScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOAutoFitScreen-prefix.pch"; sourceTree = "<group>"; };
+		6C5C14517CB623545A3DA6DA80C51410 /* Pods-YACOAutoFitScreen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOAutoFitScreen_Example-Info.plist"; sourceTree = "<group>"; };
+		73A548F3A1A59D942CC8295511D70BDC /* YACOPhoneModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModel.m; path = YACOAutoFitScreen/Classes/YACOPhoneModel.m; sourceTree = "<group>"; };
+		76EDB975CAC54F1544C7F66A5EF20E64 /* YACOPhoneModelXSMax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModelXSMax.h; path = YACOAutoFitScreen/Classes/YACOPhoneModelXSMax.h; sourceTree = "<group>"; };
+		7826CAA3BBCEE1C09F08BAB2F6B2FF2B /* Pods_YACOAutoFitScreen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOAutoFitScreen_Example.framework; path = "Pods-YACOAutoFitScreen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3ADACDC85F7794000FDA89655F599B /* Pods-YACOAutoFitScreen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOAutoFitScreen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		878033829508DF7509E6A52CB460F26A /* FontValue6.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = FontValue6.plist; sourceTree = "<group>"; };
+		89E840F709B063048ACEEC2C9284B853 /* YACOPhoneModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModel.h; path = YACOAutoFitScreen/Classes/YACOPhoneModel.h; sourceTree = "<group>"; };
+		8E7FE32822D7284A50E2988B9CE24240 /* YACOPhoneModel5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModel5.h; path = YACOAutoFitScreen/Classes/YACOPhoneModel5.h; sourceTree = "<group>"; };
+		8EDF8EECCAF3F882873CF74948353F5A /* Pods-YACOAutoFitScreen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOAutoFitScreen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		90E49C2AA8CFA11EE1FD720F6B61E0FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92423F28F250DA59F1290DAE97EBF796 /* Pods-YACOAutoFitScreen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOAutoFitScreen_Tests.modulemap"; sourceTree = "<group>"; };
+		95DEB86D10FD06EE783E26FC8D7F93B1 /* Pods-YACOAutoFitScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOAutoFitScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96DC571493FFF63D3A2B10BAD4D0603A /* Pods-YACOAutoFitScreen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOAutoFitScreen_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EADA007EEB628AB46DC4434FE8EAFE4 /* Pods-YACOAutoFitScreen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOAutoFitScreen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EF75A3E3CC9FDB603C4BFE5B0CB50A0 /* YACOPhoneModel6.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOPhoneModel6.h; path = YACOAutoFitScreen/Classes/YACOPhoneModel6.h; sourceTree = "<group>"; };
+		A4F1747B1215909A09A02AE124DB5F26 /* ModuleValue6.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = ModuleValue6.plist; sourceTree = "<group>"; };
+		AA68569CD40FFD2FF2366F14138D3E01 /* YACOPhoneModelFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOPhoneModelFactory.m; path = YACOAutoFitScreen/Classes/YACOPhoneModelFactory.m; sourceTree = "<group>"; };
+		B39FE4CFA95119588017DE08780A5778 /* Pods-YACOAutoFitScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOAutoFitScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B76D4A303D41C5DFAFE0A2FB91E935E3 /* Pods-YACOAutoFitScreen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOAutoFitScreen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5264CEA92E999C5E288E299074CD24A /* YACOAutoFitScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOAutoFitScreen.debug.xcconfig; sourceTree = "<group>"; };
+		DAD8B23BBDF2E4B375729FFBBC189750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EA4E1E962EA5661D71FD5BD7B100B28F /* YACOAutoFitScreen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOAutoFitScreen-Info.plist"; sourceTree = "<group>"; };
+		F4662CD8841264060E1E21904B74EFB5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YACOAutoFitScreen/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BBD8C37AC0BD116EC995677CA5705D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401E1EFB05A970527315F21E0FB4847C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CAE116AC79668A8E14E2A5D5C885C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B53486A620ABFD0A1D53F4F1633D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF18C4974BDA89B23E616D99FB99964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC784EE00DE219F985B5989623CB0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15260EAF79BB778A2213A5C964997CEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D32EF6BB95535ED1931EBCABA6F1D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7826CAA3BBCEE1C09F08BAB2F6B2FF2B /* Pods_YACOAutoFitScreen_Example.framework */,
+				60F8D1D29C99B7881CE2FB463DD25564 /* Pods_YACOAutoFitScreen_Tests.framework */,
+				3D396FD7619499EDEC776B8DDE56A1A2 /* YACOAutoFitScreen.bundle */,
+				25CB75ECBDE899038EC94866D38A502E /* YACOAutoFitScreen.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46CA3D015964C3979B86AE9B4403730E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E54ACA771D985996DDC4F6B565ED506 /* YACOAutoFitScreen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76E90533B8FD9B03884D039327739295 /* Pods-YACOAutoFitScreen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92423F28F250DA59F1290DAE97EBF796 /* Pods-YACOAutoFitScreen_Tests.modulemap */,
+				7C3ADACDC85F7794000FDA89655F599B /* Pods-YACOAutoFitScreen_Tests-acknowledgements.markdown */,
+				54717CDE1DC9BA7C0239518FBC184B40 /* Pods-YACOAutoFitScreen_Tests-acknowledgements.plist */,
+				0858A2942DA5ACE990C6B02700C1E1F7 /* Pods-YACOAutoFitScreen_Tests-dummy.m */,
+				2C8DC89C98DB1F887AF6898E64C22CEB /* Pods-YACOAutoFitScreen_Tests-Info.plist */,
+				0F5C15D00EA722D663960A8C890FCF3E /* Pods-YACOAutoFitScreen_Tests-umbrella.h */,
+				95DEB86D10FD06EE783E26FC8D7F93B1 /* Pods-YACOAutoFitScreen_Tests.debug.xcconfig */,
+				B39FE4CFA95119588017DE08780A5778 /* Pods-YACOAutoFitScreen_Tests.release.xcconfig */,
+			);
+			name = "Pods-YACOAutoFitScreen_Tests";
+			path = "Target Support Files/Pods-YACOAutoFitScreen_Tests";
+			sourceTree = "<group>";
+		};
+		8E54ACA771D985996DDC4F6B565ED506 /* YACOAutoFitScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F4662CD8841264060E1E21904B74EFB5 /* ReplaceMe.m */,
+				49DB216F7FAD2896500A3422B6FD0B16 /* YACOAutoFitScreen.h */,
+				89E840F709B063048ACEEC2C9284B853 /* YACOPhoneModel.h */,
+				73A548F3A1A59D942CC8295511D70BDC /* YACOPhoneModel.m */,
+				8E7FE32822D7284A50E2988B9CE24240 /* YACOPhoneModel5.h */,
+				306F4D9E49BB88417434761877C6AC04 /* YACOPhoneModel5.m */,
+				9EF75A3E3CC9FDB603C4BFE5B0CB50A0 /* YACOPhoneModel6.h */,
+				4807E201746BA226328B4E33ED78BAE9 /* YACOPhoneModel6.m */,
+				06AB5E86EDF9999A1035CD228323F417 /* YACOPhoneModel6p.h */,
+				4087DEEF442DF7881C8A7A0070AB51C9 /* YACOPhoneModel6p.m */,
+				47E6A494A449DAE1D010E67EC17E2D23 /* YACOPhoneModelFactory.h */,
+				AA68569CD40FFD2FF2366F14138D3E01 /* YACOPhoneModelFactory.m */,
+				34E37E2F5C4386FCD4436CF3828F7C82 /* YACOPhoneModelX.h */,
+				5EFFBF353D97C132B8B140A6EFCFEDC3 /* YACOPhoneModelX.m */,
+				76EDB975CAC54F1544C7F66A5EF20E64 /* YACOPhoneModelXSMax.h */,
+				2FEEF08CD231A9738EF50B9FA5D7C4ED /* YACOPhoneModelXSMax.m */,
+				F73688CCB5821E875742FB166EEE14AB /* Pod */,
+				BF905EB6BE83AAEBAF3C5C3AFDB17732 /* Resources */,
+				CC5560AE48A414B009E4434EA730ACC6 /* Support Files */,
+			);
+			name = YACOAutoFitScreen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B2A060331F4B53BCFF1165B7F8D1F59A /* Pods-YACOAutoFitScreen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				091409F9584D0DCDCBB2976A692CE515 /* Pods-YACOAutoFitScreen_Example.modulemap */,
+				9EADA007EEB628AB46DC4434FE8EAFE4 /* Pods-YACOAutoFitScreen_Example-acknowledgements.markdown */,
+				B76D4A303D41C5DFAFE0A2FB91E935E3 /* Pods-YACOAutoFitScreen_Example-acknowledgements.plist */,
+				1E387EAC374039EEE299D4B0A25DF8BE /* Pods-YACOAutoFitScreen_Example-dummy.m */,
+				6C5C14517CB623545A3DA6DA80C51410 /* Pods-YACOAutoFitScreen_Example-Info.plist */,
+				40C38F82DCE218D46FC96E4651C69F6E /* Pods-YACOAutoFitScreen_Example-resources.sh */,
+				96DC571493FFF63D3A2B10BAD4D0603A /* Pods-YACOAutoFitScreen_Example-umbrella.h */,
+				1E5DF5613B4FCD64FA07FD80B8F7DBDB /* Pods-YACOAutoFitScreen_Example.debug.xcconfig */,
+				8EDF8EECCAF3F882873CF74948353F5A /* Pods-YACOAutoFitScreen_Example.release.xcconfig */,
+			);
+			name = "Pods-YACOAutoFitScreen_Example";
+			path = "Target Support Files/Pods-YACOAutoFitScreen_Example";
+			sourceTree = "<group>";
+		};
+		BF905EB6BE83AAEBAF3C5C3AFDB17732 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				878033829508DF7509E6A52CB460F26A /* FontValue6.plist */,
+				141DD6A42BBA3183457F591CE144EB2C /* ImageValue6.plist */,
+				A4F1747B1215909A09A02AE124DB5F26 /* ModuleValue6.plist */,
+			);
+			name = Resources;
+			path = YACOAutoFitScreen/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5A1D37919B2638876559203C06AF572 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A060331F4B53BCFF1165B7F8D1F59A /* Pods-YACOAutoFitScreen_Example */,
+				76E90533B8FD9B03884D039327739295 /* Pods-YACOAutoFitScreen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC5560AE48A414B009E4434EA730ACC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E25538DBBD74847ADA66D45E966940 /* ResourceBundle-YACOAutoFitScreen-YACOAutoFitScreen-Info.plist */,
+				1937E3E441F48B33F1DA6DA98BD21A29 /* YACOAutoFitScreen.modulemap */,
+				05BFD59C69AB5EB468BC4FF2D0D42DFA /* YACOAutoFitScreen-dummy.m */,
+				EA4E1E962EA5661D71FD5BD7B100B28F /* YACOAutoFitScreen-Info.plist */,
+				6A36E05D2BF93E17E01D6BB9055AA711 /* YACOAutoFitScreen-prefix.pch */,
+				5C9B12449B6B0A8087BC5AA11C2390F5 /* YACOAutoFitScreen-umbrella.h */,
+				C5264CEA92E999C5E288E299074CD24A /* YACOAutoFitScreen.debug.xcconfig */,
+				29F86EEAA898F8ABE85FD7EAE628F482 /* YACOAutoFitScreen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YACOAutoFitScreen";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				46CA3D015964C3979B86AE9B4403730E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1D32EF6BB95535ED1931EBCABA6F1D76 /* Products */,
+				C5A1D37919B2638876559203C06AF572 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F73688CCB5821E875742FB166EEE14AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				90E49C2AA8CFA11EE1FD720F6B61E0FA /* LICENSE */,
+				DAD8B23BBDF2E4B375729FFBBC189750 /* README.md */,
+				658A59790542935E320B9B96AF8716B1 /* YACOAutoFitScreen.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0787AEA0B86C20465487D4D030CA6241 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7737B0CF10BD23E1143FDE43E5898827 /* YACOAutoFitScreen-umbrella.h in Headers */,
+				6E967789B91E017F2CBB6A6A0D5B5696 /* YACOAutoFitScreen.h in Headers */,
+				F3F043EE05BF654FB0585213055FC44D /* YACOPhoneModel.h in Headers */,
+				8AEEB5D29BEFB3DE338B9FD9F2C320A7 /* YACOPhoneModel5.h in Headers */,
+				F8F57ACBC79AEFE8711873E94EBE528E /* YACOPhoneModel6.h in Headers */,
+				6C5F8EC357B1371C90B38506E3E128DE /* YACOPhoneModel6p.h in Headers */,
+				A26802A06F63EEE65BE62C5925E0694D /* YACOPhoneModelFactory.h in Headers */,
+				183434860132E0DB51177553DA87EB81 /* YACOPhoneModelX.h in Headers */,
+				DA1DDB0125374D9E59679D04C03073E1 /* YACOPhoneModelXSMax.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4E49CBB0456535AFCCD9B70C71B472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7685FD34072367D90E698444EA715818 /* Pods-YACOAutoFitScreen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24CF327CAD7394E1AAC8393A5C6B058 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285D188390B429C65BA98E95C442D17 /* Pods-YACOAutoFitScreen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E9936276632A0C5D2C86492C7B8CF7F /* YACOAutoFitScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45CDC0CB62EE8FC7F298AAF1B744FE0 /* Build configuration list for PBXNativeTarget "YACOAutoFitScreen" */;
+			buildPhases = (
+				0787AEA0B86C20465487D4D030CA6241 /* Headers */,
+				20D104F1EE1A66EF36D5E9106EB305C7 /* Sources */,
+				68BBD8C37AC0BD116EC995677CA5705D /* Frameworks */,
+				D9DCA125EACA853F0EAFCEA0F82423A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB8EC140018121C5F6C9FB17FAB244F /* PBXTargetDependency */,
+			);
+			name = YACOAutoFitScreen;
+			productName = YACOAutoFitScreen;
+			productReference = 25CB75ECBDE899038EC94866D38A502E /* YACOAutoFitScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D89D7E3948F955CE879F84CAA81E76F /* Pods-YACOAutoFitScreen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F0A7595FF0F997AE18C480B28044C4 /* Build configuration list for PBXNativeTarget "Pods-YACOAutoFitScreen_Example" */;
+			buildPhases = (
+				C24CF327CAD7394E1AAC8393A5C6B058 /* Headers */,
+				93FBBE78CF44D4E2E2298426BDE643E7 /* Sources */,
+				E92B53486A620ABFD0A1D53F4F1633D1 /* Frameworks */,
+				7374372DE827FA0CA08036CC21544E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293AB9977B394D8AFC8676A2DF95A053 /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOAutoFitScreen_Example";
+			productName = "Pods-YACOAutoFitScreen_Example";
+			productReference = 7826CAA3BBCEE1C09F08BAB2F6B2FF2B /* Pods_YACOAutoFitScreen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B769FBFDB7ABDC1FEB8D2A3369EE2446 /* Pods-YACOAutoFitScreen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F2C7958DEAFAFCBFF8FB75948BA809 /* Build configuration list for PBXNativeTarget "Pods-YACOAutoFitScreen_Tests" */;
+			buildPhases = (
+				5C4E49CBB0456535AFCCD9B70C71B472 /* Headers */,
+				75890B33762F15962F481025840DB2E8 /* Sources */,
+				EFC784EE00DE219F985B5989623CB0A8 /* Frameworks */,
+				EB81B552EA9F6E7D0AB9419A035CE7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C6EF56C115A60357AD3333140E2E5F /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOAutoFitScreen_Tests";
+			productName = "Pods-YACOAutoFitScreen_Tests";
+			productReference = 60F8D1D29C99B7881CE2FB463DD25564 /* Pods_YACOAutoFitScreen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC3379D545FC838BE25B6BA48023B182 /* YACOAutoFitScreen-YACOAutoFitScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5067147F73D151F65A476169DA3722A3 /* Build configuration list for PBXNativeTarget "YACOAutoFitScreen-YACOAutoFitScreen" */;
+			buildPhases = (
+				4F5DF5194D9FD3D75C7E7595DFE18884 /* Sources */,
+				A8CAE116AC79668A8E14E2A5D5C885C5 /* Frameworks */,
+				20377D15D9A41A661A79C3DBF72963A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YACOAutoFitScreen-YACOAutoFitScreen";
+			productName = "YACOAutoFitScreen-YACOAutoFitScreen";
+			productReference = 3D396FD7619499EDEC776B8DDE56A1A2 /* YACOAutoFitScreen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D32EF6BB95535ED1931EBCABA6F1D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D89D7E3948F955CE879F84CAA81E76F /* Pods-YACOAutoFitScreen_Example */,
+				B769FBFDB7ABDC1FEB8D2A3369EE2446 /* Pods-YACOAutoFitScreen_Tests */,
+				4E9936276632A0C5D2C86492C7B8CF7F /* YACOAutoFitScreen */,
+				FC3379D545FC838BE25B6BA48023B182 /* YACOAutoFitScreen-YACOAutoFitScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20377D15D9A41A661A79C3DBF72963A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A68DD270DE6D5EA75B179074EF7EC40 /* FontValue6.plist in Resources */,
+				611A21A09A033DD54364F7DEC55A2E77 /* ImageValue6.plist in Resources */,
+				98EA1AB2CD92E1C8F504C55658B1B5E5 /* ModuleValue6.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7374372DE827FA0CA08036CC21544E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DCA125EACA853F0EAFCEA0F82423A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB81B552EA9F6E7D0AB9419A035CE7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D104F1EE1A66EF36D5E9106EB305C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F8F37D06057EA91E40FCE59C7F77ED /* FontValue6.plist in Sources */,
+				38DF87F784D92ECC1A6FA805BA20FF1A /* ImageValue6.plist in Sources */,
+				D188601ACECB7DB70DDFFCFA80081BA7 /* ModuleValue6.plist in Sources */,
+				63070607C3E161C7BA3BEB609B521BE5 /* ReplaceMe.m in Sources */,
+				F37406F860B512AD6C19BBC07563CAA7 /* YACOAutoFitScreen-dummy.m in Sources */,
+				FA382F927836607682EAA498D513466A /* YACOPhoneModel.m in Sources */,
+				54E7C094C3E0B58DDC3D4E5B5630D607 /* YACOPhoneModel5.m in Sources */,
+				9363C06F5D6C79EDA17C71AAAD9E6B02 /* YACOPhoneModel6.m in Sources */,
+				8573987D79586CA91F67D079A60975D9 /* YACOPhoneModel6p.m in Sources */,
+				F6348785490DED797C27103C0DC777A2 /* YACOPhoneModelFactory.m in Sources */,
+				4F56512AFAEDE746654EB3291F143941 /* YACOPhoneModelX.m in Sources */,
+				7B5F4EC01BCF583D0F6B959B81470A70 /* YACOPhoneModelXSMax.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5DF5194D9FD3D75C7E7595DFE18884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75890B33762F15962F481025840DB2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222803497CC2996B74BE10547799FEA8 /* Pods-YACOAutoFitScreen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FBBE78CF44D4E2E2298426BDE643E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3E3758622FE72D2C8D224FA4F8E73A /* Pods-YACOAutoFitScreen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C6EF56C115A60357AD3333140E2E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YACOAutoFitScreen_Example";
+			target = 7D89D7E3948F955CE879F84CAA81E76F /* Pods-YACOAutoFitScreen_Example */;
+			targetProxy = 605CD91B2715BBA13361EBD914E13EEF /* PBXContainerItemProxy */;
+		};
+		293AB9977B394D8AFC8676A2DF95A053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YACOAutoFitScreen;
+			target = 4E9936276632A0C5D2C86492C7B8CF7F /* YACOAutoFitScreen */;
+			targetProxy = 5C9C8A94F7963DE58434096573A95FC9 /* PBXContainerItemProxy */;
+		};
+		DBB8EC140018121C5F6C9FB17FAB244F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YACOAutoFitScreen-YACOAutoFitScreen";
+			target = FC3379D545FC838BE25B6BA48023B182 /* YACOAutoFitScreen-YACOAutoFitScreen */;
+			targetProxy = 7054FEFFC118536A93F9B7C562181056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC09B20D11E40D0E1AF438E32566CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F86EEAA898F8ABE85FD7EAE628F482 /* YACOAutoFitScreen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YACOAutoFitScreen";
+				IBSC_MODULE = YACOAutoFitScreen;
+				INFOPLIST_FILE = "Target Support Files/YACOAutoFitScreen/ResourceBundle-YACOAutoFitScreen-YACOAutoFitScreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YACOAutoFitScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B3C9378B0751719F92151EA9A9AE78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39FE4CFA95119588017DE08780A5778 /* Pods-YACOAutoFitScreen_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Tests/Pods-YACOAutoFitScreen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Tests/Pods-YACOAutoFitScreen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FE4A170099BEDE34CA6D2C2A003824B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DEB86D10FD06EE783E26FC8D7F93B1 /* Pods-YACOAutoFitScreen_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Tests/Pods-YACOAutoFitScreen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Tests/Pods-YACOAutoFitScreen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D132F04B203D28D541B36577BE32D25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F86EEAA898F8ABE85FD7EAE628F482 /* YACOAutoFitScreen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen.modulemap";
+				PRODUCT_MODULE_NAME = YACOAutoFitScreen;
+				PRODUCT_NAME = YACOAutoFitScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC0F12BE9F1085222B4C0EE7E5162BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDF8EECCAF3F882873CF74948353F5A /* Pods-YACOAutoFitScreen_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Example/Pods-YACOAutoFitScreen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Example/Pods-YACOAutoFitScreen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E944802F6A70DCBA5EA6C5B9981FD4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5264CEA92E999C5E288E299074CD24A /* YACOAutoFitScreen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YACOAutoFitScreen";
+				IBSC_MODULE = YACOAutoFitScreen;
+				INFOPLIST_FILE = "Target Support Files/YACOAutoFitScreen/ResourceBundle-YACOAutoFitScreen-YACOAutoFitScreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YACOAutoFitScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F4708BFD81E77EFF407E9E5B03811562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5264CEA92E999C5E288E299074CD24A /* YACOAutoFitScreen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YACOAutoFitScreen/YACOAutoFitScreen.modulemap";
+				PRODUCT_MODULE_NAME = YACOAutoFitScreen;
+				PRODUCT_NAME = YACOAutoFitScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEB60AE712038A3A17E96D2A92CE36B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5DF5613B4FCD64FA07FD80B8F7DBDB /* Pods-YACOAutoFitScreen_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Example/Pods-YACOAutoFitScreen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOAutoFitScreen_Example/Pods-YACOAutoFitScreen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F2C7958DEAFAFCBFF8FB75948BA809 /* Build configuration list for PBXNativeTarget "Pods-YACOAutoFitScreen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE4A170099BEDE34CA6D2C2A003824B /* Debug */,
+				8B3C9378B0751719F92151EA9A9AE78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5067147F73D151F65A476169DA3722A3 /* Build configuration list for PBXNativeTarget "YACOAutoFitScreen-YACOAutoFitScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E944802F6A70DCBA5EA6C5B9981FD4CD /* Debug */,
+				0BC09B20D11E40D0E1AF438E32566CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F0A7595FF0F997AE18C480B28044C4 /* Build configuration list for PBXNativeTarget "Pods-YACOAutoFitScreen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB60AE712038A3A17E96D2A92CE36B6 /* Debug */,
+				DC0F12BE9F1085222B4C0EE7E5162BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45CDC0CB62EE8FC7F298AAF1B744FE0 /* Build configuration list for PBXNativeTarget "YACOAutoFitScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4708BFD81E77EFF407E9E5B03811562 /* Debug */,
+				D132F04B203D28D541B36577BE32D25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

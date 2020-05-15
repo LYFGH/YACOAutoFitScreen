@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>30</key>
+	<integer>20</integer>
+	<key>34</key>
+	<integer>22</integer>
+	<key>36</key>
+	<integer>24</integer>
+	<key>40</key>
+	<integer>26</integer>
+	<key>44</key>
+	<integer>28</integer>
+	<key>48</key>
+	<integer>30</integer>
+	<key>52</key>
+	<integer>32</integer>
+	<key>56</key>
+	<integer>34</integer>
+	<key>58</key>
+	<integer>36</integer>
+	<key>60</key>
+	<integer>38</integer>
+	<key>70</key>
+	<integer>42</integer>
+	<key>28</key>
+	<integer>18</integer>
+	<key>32</key>
+	<integer>20</integer>
+	<key>38</key>
+	<integer>24</integer>
+	<key>42</key>
+	<integer>26</integer>
+</dict>
+</plist>

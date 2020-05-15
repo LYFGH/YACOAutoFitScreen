@@ -1,0 +1,16 @@
+PODS:
+  - YACOAutoFitScreen (0.1.1)
+
+DEPENDENCIES:
+  - YACOAutoFitScreen (from `../`)
+
+EXTERNAL SOURCES:
+  YACOAutoFitScreen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YACOAutoFitScreen: b02fa34dd1aed040cd89b4520d111fa3f7642eb6
+
+PODFILE CHECKSUM: c500be2c63c668a0db00c779cacd5bc3ed87dd4f
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>10</key>
+	<integer>6</integer>
+	<key>20</key>
+	<integer>12</integer>
+	<key>30</key>
+	<integer>20</integer>
+	<key>40</key>
+	<integer>26</integer>
+	<key>50</key>
+	<integer>30</integer>
+	<key>60</key>
+	<integer>36</integer>
+	<key>70</key>
+	<integer>40</integer>
+	<key>80</key>
+	<integer>50</integer>
+	<key>90</key>
+	<integer>54</integer>
+	<key>100</key>
+	<integer>60</integer>
+	<key>110</key>
+	<integer>66</integer>
+	<key>120</key>
+	<integer>70</integer>
+	<key>130</key>
+	<integer>80</integer>
+	<key>140</key>
+	<integer>86</integer>
+	<key>146</key>
+	<integer>90</integer>
+	<key>150</key>
+	<integer>90</integer>
+	<key>160</key>
+	<integer>100</integer>
+	<key>170</key>
+	<integer>106</integer>
+	<key>180</key>
+	<integer>110</integer>
+	<key>184</key>
+	<integer>110</integer>
+	<key>190</key>
+	<integer>116</integer>
+	<key>200</key>
+	<integer>120</integer>
+	<key>210</key>
+	<integer>130</integer>
+	<key>220</key>
+	<integer>134</integer>
+	<key>230</key>
+	<integer>140</integer>
+	<key>240</key>
+	<integer>144</integer>
+	<key>250</key>
+	<integer>150</integer>
+	<key>270</key>
+	<integer>160</integer>
+	<key>280</key>
+	<integer>170</integer>
+</dict>
+</plist>
